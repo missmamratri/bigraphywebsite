@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*
+ {
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+*
+a {
+  color: #f7f7f7;
+  text-decoration: none;
+  position: relative;
+}
+nav {
+  width : 250px;
+  /*Specifies the width of the menu area*/
+  height: 100%;
+  /*Specifies the height of the menu area*/
+
+  margin-left: 10px;
+  /* it always stays in the same palce even if the page is scrolled*/
+  position: fixed;
+  overflow: hidden;
+  /*content is too big to fit into area.*/
+  background: #c4c0c0;
+    box-shadow: 9px 9px 35px - 8px rgba(0, 0, 0, 0.69);
+  text-align: center;
+  
+}
+nav img {
+  border-radius: 50%;
+  /*set the outer border edge*/
+  margin-top: 30px;
+  width: 170px;
+  height: 170px;
+}
+.headname {
+  font-size: 30px;
+  font-family: "Ma Shan Zheng", cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+nav ul {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 50px;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+li {
+  color: #ffffff;
+}
+nav a:after {
+  border-radius: 1em;
+  border-top: 0.1em solid #ffffff;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0.14em;
+  left: 0;
+}
+nav a:hover:after {
+  right: 0;
+}
+.main {
+  margin-left: 300px;
+}
+.home {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.home img {
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 9px 9px 35px -8px rgba (0, 0, 0, 0.69);
+}
+.home h1 {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.home h3 {
+  font-family: "Kindergarten", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.home p {
+  font-family: "Titillium Web", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+/*////////////// about styles ///////////////*/
+  .about {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .about p {
+    font-family: "Titillium Web", sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;  
+  }
+  /*///////// achievement styles /////////////// */
+  .achievement {
+    text-align : left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .achievement-details-div {
+    width: 90%;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  .achievement-details-div img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .achievement-details-div h3 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 26px;
+  }
+  .achievement-details-div p {
+    font-size: 16px;
+    margin-right: 10px;
+    font-family: "Varela Round", sans-serif;
+  }
+  /*///// photo styles //// */ 
+  .photo {
+    margin-left: 50px;
+  }
+
+  .photo img {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
